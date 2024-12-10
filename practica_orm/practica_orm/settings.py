@@ -83,6 +83,9 @@ DATABASES = {
         'PASSWORD': 'user_db',  
         'HOST': 'localhost',  
         'PORT': '5432',  
+        'TEST': {  
+            'NAME': 'db_practica_orm_test',  
+        },
     }
 }
 
